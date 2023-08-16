@@ -13,5 +13,8 @@ class Animal {
     dormir() {
         console.log(`${this.nome} dormiu.`);
     }
+    makeSound() {
+        console.log(`${this.nome} fez um som.`);
+    }
 }
 exports.default = Animal;
